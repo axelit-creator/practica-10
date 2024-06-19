@@ -23,10 +23,11 @@ namespace practica_10
             form.Show();
             this.Hide();
         }
-
-        private void inicioToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ordenesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Ordenes ordenes = new Ordenes();
+            ordenes.Show();
+            this.Hide();
         }
 
         private void ordenesToolStripMenuItem_Click(object sender, EventArgs e)

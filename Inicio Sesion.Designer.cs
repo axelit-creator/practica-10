@@ -118,7 +118,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.tx_usuario);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "inicioSesion";
             this.Load += new System.EventHandler(this.inicioSesion_Load);

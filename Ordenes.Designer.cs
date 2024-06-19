@@ -1,6 +1,6 @@
 ﻿namespace practica_10
 {
-    partial class Ordenar
+    partial class Ordenes
     {
         /// <summary>
         /// Required designer variable.
@@ -31,22 +31,18 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.carritoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ordenesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.agregarOrdenesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(6)))), ((int)(((byte)(2)))));
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.inicioToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
             this.menuStrip1.Size = new System.Drawing.Size(800, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
@@ -60,55 +56,39 @@
             this.inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
             this.inicioToolStripMenuItem.Size = new System.Drawing.Size(59, 24);
             this.inicioToolStripMenuItem.Text = "Inicio";
-            
             // 
             // carritoToolStripMenuItem
             // 
             this.carritoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ordenesToolStripMenuItem});
+            this.agregarOrdenesToolStripMenuItem});
             this.carritoToolStripMenuItem.Name = "carritoToolStripMenuItem";
             this.carritoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.carritoToolStripMenuItem.Text = "Carrito";
-            // 
-            // ordenesToolStripMenuItem
-            // 
-            this.ordenesToolStripMenuItem.Name = "ordenesToolStripMenuItem";
-            this.ordenesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.ordenesToolStripMenuItem.Text = "Ordenes ";
-            this.ordenesToolStripMenuItem.Click += new System.EventHandler(this.ordenesToolStripMenuItem_Click);
             // 
             // cerrarSesionToolStripMenuItem
             // 
             this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
             this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
-            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
-            // pictureBox1
+            // agregarOrdenesToolStripMenuItem
             // 
-            this.pictureBox1.Image = global::practica_10.Properties.Resources.tialulasinfondo;
-            this.pictureBox1.Location = new System.Drawing.Point(675, 330);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(125, 118);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.agregarOrdenesToolStripMenuItem.Name = "agregarOrdenesToolStripMenuItem";
+            this.agregarOrdenesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.agregarOrdenesToolStripMenuItem.Text = "Agregar Ordenes";
+            this.agregarOrdenesToolStripMenuItem.Click += new System.EventHandler(this.agregarOrdenesToolStripMenuItem_Click);
             // 
-            // Ordenar
+            // Ordenes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Name = "Ordenar";
-            this.Text = "Ordenar";
+            this.Name = "Ordenes";
+            this.Text = "Ordenes";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -119,8 +99,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem inicioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem carritoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem agregarOrdenesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ordenesToolStripMenuItem;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
