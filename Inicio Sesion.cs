@@ -20,6 +20,7 @@ namespace practica_10
             string password3 = "1234";//contraseña del usuario correspondiente
             string nombre4 = "Carlos";//ususario
             string password4 = "1234";//contraseña del usuario correspondiente
+            if (!string.IsNullOrEmpty(tx_usuario.Text) && !string.IsNullOrEmpty(tx_contraseña.Text))//comprobar si hay algo en los textbox
             {
                 if ((tx_usuario.Text == nombre && tx_contraseña.Text == password) ||//comprobar contraseñas de los ususarios
         (tx_usuario.Text == nombre2 && tx_contraseña.Text == password2) ||
