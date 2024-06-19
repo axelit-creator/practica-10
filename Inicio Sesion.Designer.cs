@@ -111,7 +111,6 @@
             this.Controls.Add(this.tx_usuario);
             this.MaximizeBox = false;
             this.Name = "inicioSesion";
-            this.Load += new System.EventHandler(this.inicioSesion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
