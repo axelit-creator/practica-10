@@ -59,5 +59,17 @@ namespace practica_10
         {
             tx_contraseña.PasswordChar = '*';
         }
+
+        private void Lb_Admin_Click(object sender, EventArgs e)
+        {
+            InicioDeSesionAdmin form = new InicioDeSesionAdmin();
+            form.Show();
+            this.Hide();
+        }
+
+        private void tx_contraseña_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -33,20 +33,22 @@
             this.tx_usuario = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.mostrarContraseña = new System.Windows.Forms.CheckBox();
+            this.Lb_Admin = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // tx_contraseña
             // 
             resources.ApplyResources(this.tx_contraseña, "tx_contraseña");
             this.tx_contraseña.Name = "tx_contraseña";
+            this.tx_contraseña.TextChanged += new System.EventHandler(this.tx_contraseña_TextChanged);
             // 
             // tx_usuario
             // 
@@ -65,22 +67,10 @@
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
             // 
-            // pictureBox2
-            // 
-            resources.ApplyResources(this.pictureBox2, "pictureBox2");
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.TabStop = false;
-            // 
             // label1
             // 
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            // 
-            // pictureBox3
-            // 
-            resources.ApplyResources(this.pictureBox3, "pictureBox3");
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.TabStop = false;
             // 
             // mostrarContraseña
             // 
@@ -89,17 +79,36 @@
             this.mostrarContraseña.UseVisualStyleBackColor = true;
             this.mostrarContraseña.CheckedChanged += new System.EventHandler(this.mostrarContraseña_CheckedChanged);
             // 
+            // Lb_Admin
+            // 
+            resources.ApplyResources(this.Lb_Admin, "Lb_Admin");
+            this.Lb_Admin.Name = "Lb_Admin";
+            this.Lb_Admin.Click += new System.EventHandler(this.Lb_Admin_Click);
+            // 
             // pictureBox1
             // 
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
+            // pictureBox3
+            // 
+            resources.ApplyResources(this.pictureBox3, "pictureBox3");
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
+            // 
             // inicioSesion
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Controls.Add(this.Lb_Admin);
             this.Controls.Add(this.mostrarContraseña);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
@@ -113,9 +122,9 @@
             this.MaximizeBox = false;
             this.Name = "inicioSesion";
             this.Load += new System.EventHandler(this.inicioSesion_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -132,6 +141,7 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.CheckBox mostrarContraseña;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label Lb_Admin;
     }
 }
 
