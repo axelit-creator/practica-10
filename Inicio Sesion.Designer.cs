@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(inicioSesion));
-            this.Contraseña = new System.Windows.Forms.TextBox();
-            this.usuario = new System.Windows.Forms.TextBox();
+            this.tx_contraseña = new System.Windows.Forms.TextBox();
+            this.tx_usuario = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -43,15 +43,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // Contraseña
+            // tx_contraseña
             // 
-            resources.ApplyResources(this.Contraseña, "Contraseña");
-            this.Contraseña.Name = "Contraseña";
+            resources.ApplyResources(this.tx_contraseña, "tx_contraseña");
+            this.tx_contraseña.Name = "tx_contraseña";
             // 
-            // usuario
+            // tx_usuario
             // 
-            resources.ApplyResources(this.usuario, "usuario");
-            this.usuario.Name = "usuario";
+            resources.ApplyResources(this.tx_usuario, "tx_usuario");
+            this.tx_usuario.Name = "tx_usuario";
             // 
             // button1
             // 
@@ -105,10 +105,10 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.Contraseña);
+            this.Controls.Add(this.tx_contraseña);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.usuario);
+            this.Controls.Add(this.tx_usuario);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "inicioSesion";
@@ -122,8 +122,8 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox Contraseña;
-        private System.Windows.Forms.TextBox usuario;
+        private System.Windows.Forms.TextBox tx_contraseña;
+        private System.Windows.Forms.TextBox tx_usuario;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox2;
