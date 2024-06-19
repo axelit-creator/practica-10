@@ -122,7 +122,7 @@
     <value>Berlin Sans FB, 10.8pt</value>
   </data>
   <data name="tx_contraseña.Location" type="System.Drawing.Point, System.Drawing">
-    <value>162, 210</value>
+    <value>102, 173</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="tx_contraseña.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
@@ -142,7 +142,7 @@
     <value>Berlin Sans FB, 10.8pt</value>
   </data>
   <data name="tx_usuario.Location" type="System.Drawing.Point, System.Drawing">
-    <value>163, 152</value>
+    <value>102, 101</value>
   </data>
   <data name="tx_usuario.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -157,7 +157,7 @@
     <value>NoControl</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>163, 280</value>
+    <value>166, 252</value>
   </data>
   <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -169,7 +169,7 @@
     <value>NoControl</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 182</value>
+    <value>100, 145</value>
   </data>
   <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
@@ -311,7 +311,7 @@
     <value>NoControl</value>
   </data>
   <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>83, 118</value>
+    <value>22, 67</value>
   </data>
   <data name="pictureBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -323,7 +323,7 @@
     <value>NoControl</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 118</value>
+    <value>99, 67</value>
   </data>
   <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
@@ -583,7 +583,7 @@
     <value>NoControl</value>
   </data>
   <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>83, 184</value>
+    <value>23, 147</value>
   </data>
   <data name="pictureBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -595,7 +595,7 @@
     <value>NoControl</value>
   </data>
   <data name="mostrarContraseña.Location" type="System.Drawing.Point, System.Drawing">
-    <value>284, 210</value>
+    <value>295, 173</value>
   </data>
   <data name="mostrarContraseña.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -2211,7 +2211,7 @@
     <value>NoControl</value>
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>158, 10</value>
+    <value>295, 17</value>
   </data>
   <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>

@@ -61,5 +61,10 @@ namespace practica_10
             }
 
         }
+
+        private void inicioSesion_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

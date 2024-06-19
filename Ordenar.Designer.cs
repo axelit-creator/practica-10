@@ -31,7 +31,6 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.carritoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.agregarOrdenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ordenesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -66,17 +65,10 @@
             // carritoToolStripMenuItem
             // 
             this.carritoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.agregarOrdenToolStripMenuItem,
             this.ordenesToolStripMenuItem});
             this.carritoToolStripMenuItem.Name = "carritoToolStripMenuItem";
             this.carritoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.carritoToolStripMenuItem.Text = "Carrito";
-            // 
-            // agregarOrdenToolStripMenuItem
-            // 
-            this.agregarOrdenToolStripMenuItem.Name = "agregarOrdenToolStripMenuItem";
-            this.agregarOrdenToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.agregarOrdenToolStripMenuItem.Text = "Agregar Orden";
             // 
             // ordenesToolStripMenuItem
             // 
@@ -94,9 +86,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::practica_10.Properties.Resources.tialulasinfondo;
-            this.pictureBox1.Location = new System.Drawing.Point(522, 311);
+            this.pictureBox1.Location = new System.Drawing.Point(523, 291);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(78, 57);
+            this.pictureBox1.Size = new System.Drawing.Size(77, 77);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -109,7 +101,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Ordenar";
             this.Text = "Ordenar";
             this.menuStrip1.ResumeLayout(false);
@@ -126,7 +118,6 @@
         private System.Windows.Forms.ToolStripMenuItem inicioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem carritoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem agregarOrdenToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ordenesToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
