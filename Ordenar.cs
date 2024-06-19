@@ -23,5 +23,10 @@ namespace practica_10
             form.Show();
             this.Hide();
         }
+
+        private void inicioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
