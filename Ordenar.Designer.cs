@@ -75,6 +75,7 @@
             this.ordenesToolStripMenuItem.Name = "ordenesToolStripMenuItem";
             this.ordenesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.ordenesToolStripMenuItem.Text = "Ordenes ";
+            this.ordenesToolStripMenuItem.Click += new System.EventHandler(this.ordenesToolStripMenuItem_Click);
             // 
             // cerrarSesionToolStripMenuItem
             // 

@@ -28,5 +28,12 @@ namespace practica_10
         {
 
         }
+
+        private void ordenesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Orden form = new Orden();
+            form.Show();
+            this.Hide();
+        }
     }
 }
