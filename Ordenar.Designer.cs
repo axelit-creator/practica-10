@@ -34,8 +34,12 @@
             this.ordenesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.PicadasBlancas = new System.Windows.Forms.PictureBox();
+            this.PicadasNegras = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicadasBlancas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicadasNegras)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -73,7 +77,7 @@
             // ordenesToolStripMenuItem
             // 
             this.ordenesToolStripMenuItem.Name = "ordenesToolStripMenuItem";
-            this.ordenesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ordenesToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
             this.ordenesToolStripMenuItem.Text = "Ordenes ";
             this.ordenesToolStripMenuItem.Click += new System.EventHandler(this.ordenesToolStripMenuItem_Click);
             // 
@@ -94,11 +98,32 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
+            // PicadasBlancas
+            // 
+            this.PicadasBlancas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.PicadasBlancas.Location = new System.Drawing.Point(399, 111);
+            this.PicadasBlancas.Name = "PicadasBlancas";
+            this.PicadasBlancas.Size = new System.Drawing.Size(130, 104);
+            this.PicadasBlancas.TabIndex = 2;
+            this.PicadasBlancas.TabStop = false;
+            // 
+            // PicadasNegras
+            // 
+            this.PicadasNegras.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.PicadasNegras.Location = new System.Drawing.Point(58, 111);
+            this.PicadasNegras.Name = "PicadasNegras";
+            this.PicadasNegras.Size = new System.Drawing.Size(132, 104);
+            this.PicadasNegras.TabIndex = 3;
+            this.PicadasNegras.TabStop = false;
+            this.PicadasNegras.Click += new System.EventHandler(this.PicadasNegras_Click);
+            // 
             // Ordenar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.PicadasNegras);
+            this.Controls.Add(this.PicadasBlancas);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -108,6 +133,8 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicadasBlancas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicadasNegras)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -121,5 +148,7 @@
         private System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ordenesToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox PicadasBlancas;
+        private System.Windows.Forms.PictureBox PicadasNegras;
     }
 }

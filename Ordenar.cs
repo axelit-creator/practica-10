@@ -35,5 +35,10 @@ namespace practica_10
             form.Show();
             this.Hide();
         }
+
+        private void PicadasNegras_Click(object sender, EventArgs e)
+        {
+            double PrecioNegras = 100;
+        }
     }
 }
