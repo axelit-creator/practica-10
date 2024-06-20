@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace practica_10
+namespace practica_10//llllllllllll
 {
     public partial class Ordenar : Form
     {
