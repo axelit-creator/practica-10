@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace practica_10//llllllllllll
-{
+{//Prueba
     public partial class Ordenar : Form
     {
         public Ordenar()
