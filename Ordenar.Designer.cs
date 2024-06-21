@@ -119,11 +119,11 @@
             // SegPedido
             // 
             this.SegPedido.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.SegPedido.Location = new System.Drawing.Point(0, 359);
+            this.SegPedido.Location = new System.Drawing.Point(0, 412);
             this.SegPedido.Name = "SegPedido";
             this.SegPedido.RowHeadersWidth = 51;
             this.SegPedido.RowTemplate.Height = 24;
-            this.SegPedido.Size = new System.Drawing.Size(970, 203);
+            this.SegPedido.Size = new System.Drawing.Size(970, 150);
             this.SegPedido.TabIndex = 4;
             // 
             // tx_salsa
@@ -205,7 +205,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Copperplate Gothic Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(288, 306);
+            this.label8.Location = new System.Drawing.Point(270, 356);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(430, 38);
             this.label8.TabIndex = 17;
@@ -273,9 +273,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(791, 277);
+            this.button1.Location = new System.Drawing.Point(100, 299);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(80, 76);
+            this.button1.Size = new System.Drawing.Size(92, 95);
             this.button1.TabIndex = 18;
             this.button1.Text = "Agregar Orden";
             this.button1.UseVisualStyleBackColor = true;
@@ -284,9 +284,9 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::practica_10.Properties.Resources.Picadas2;
-            this.pictureBox3.Location = new System.Drawing.Point(309, 176);
+            this.pictureBox3.Location = new System.Drawing.Point(790, 186);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(153, 127);
+            this.pictureBox3.Size = new System.Drawing.Size(180, 220);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 20;
             this.pictureBox3.TabStop = false;
@@ -294,9 +294,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::practica_10.Properties.Resources.Picadas;
-            this.pictureBox2.Location = new System.Drawing.Point(309, 41);
+            this.pictureBox2.Location = new System.Drawing.Point(304, 41);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(153, 129);
+            this.pictureBox2.Size = new System.Drawing.Size(172, 222);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 19;
             this.pictureBox2.TabStop = false;
