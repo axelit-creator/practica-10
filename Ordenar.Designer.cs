@@ -34,7 +34,6 @@
             this.ordenesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.SegPedido = new System.Windows.Forms.DataGridView();
             this.tx_salsa = new System.Windows.Forms.TextBox();
             this.tx_frijoles = new System.Windows.Forms.TextBox();
@@ -45,9 +44,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -56,9 +52,14 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SegPedido)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -115,17 +116,6 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Tomar orden";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::practica_10.Properties.Resources.tialulasinfondo;
-            this.pictureBox1.Location = new System.Drawing.Point(802, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(168, 147);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
             // SegPedido
             // 
             this.SegPedido.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -163,7 +153,7 @@
             // tx_cebolla
             // 
             this.tx_cebolla.Font = new System.Drawing.Font("Copperplate Gothic Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tx_cebolla.Location = new System.Drawing.Point(618, 66);
+            this.tx_cebolla.Location = new System.Drawing.Point(653, 66);
             this.tx_cebolla.Name = "tx_cebolla";
             this.tx_cebolla.Size = new System.Drawing.Size(100, 44);
             this.tx_cebolla.TabIndex = 8;
@@ -171,7 +161,7 @@
             // tx_huevo
             // 
             this.tx_huevo.Font = new System.Drawing.Font("Copperplate Gothic Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tx_huevo.Location = new System.Drawing.Point(618, 144);
+            this.tx_huevo.Location = new System.Drawing.Point(653, 144);
             this.tx_huevo.Name = "tx_huevo";
             this.tx_huevo.Size = new System.Drawing.Size(100, 44);
             this.tx_huevo.TabIndex = 9;
@@ -179,7 +169,7 @@
             // tx_bebida
             // 
             this.tx_bebida.Font = new System.Drawing.Font("Copperplate Gothic Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tx_bebida.Location = new System.Drawing.Point(618, 222);
+            this.tx_bebida.Location = new System.Drawing.Point(653, 222);
             this.tx_bebida.Name = "tx_bebida";
             this.tx_bebida.Size = new System.Drawing.Size(100, 44);
             this.tx_bebida.TabIndex = 10;
@@ -210,33 +200,6 @@
             this.label4.Size = new System.Drawing.Size(47, 16);
             this.label4.TabIndex = 13;
             this.label4.Text = "Queso";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(489, 85);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(54, 16);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "Cebolla";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(489, 163);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(47, 16);
-            this.label6.TabIndex = 15;
-            this.label6.Text = "Huevo";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(489, 241);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(51, 16);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "Bebida";
             // 
             // label8
             // 
@@ -282,7 +245,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Copperplate Gothic Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(433, 72);
+            this.label12.Location = new System.Drawing.Point(468, 72);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(179, 38);
             this.label12.TabIndex = 14;
@@ -292,7 +255,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Copperplate Gothic Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(475, 150);
+            this.label13.Location = new System.Drawing.Point(510, 150);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(137, 38);
             this.label13.TabIndex = 15;
@@ -302,7 +265,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Copperplate Gothic Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(465, 228);
+            this.label14.Location = new System.Drawing.Point(500, 225);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(147, 38);
             this.label14.TabIndex = 16;
@@ -318,19 +281,49 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Anotarorden);
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::practica_10.Properties.Resources.Picadas2;
+            this.pictureBox3.Location = new System.Drawing.Point(309, 176);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(153, 127);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 20;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::practica_10.Properties.Resources.Picadas;
+            this.pictureBox2.Location = new System.Drawing.Point(309, 41);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(153, 129);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 19;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::practica_10.Properties.Resources.tialulasinfondo;
+            this.pictureBox1.Location = new System.Drawing.Point(760, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(210, 179);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
             // Ordenar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(970, 563);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label10);
@@ -354,8 +347,10 @@
             this.Load += new System.EventHandler(this.Ordenar_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SegPedido)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -380,9 +375,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
@@ -391,5 +383,7 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
