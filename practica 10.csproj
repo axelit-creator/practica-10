@@ -69,6 +69,7 @@
       <DependentUpon>Ordenes.cs</DependentUpon>
     </Compile>
     <Compile Include="Pagos.cs" />
+    <Compile Include="Pedido.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Ordenar.cs">

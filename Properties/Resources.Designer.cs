@@ -63,6 +63,16 @@ namespace practica_10.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Picadas {
+            get {
+                object obj = ResourceManager.GetObject("Picadas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap tialulasinfondo {
             get {
                 object obj = ResourceManager.GetObject("tialulasinfondo", resourceCulture);
