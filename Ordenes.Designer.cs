@@ -49,7 +49,10 @@
             // 
             // inicioToolStripMenuItem
             // 
+<<<<<<< Updated upstream
             this.inicioToolStripMenuItem.BackColor = System.Drawing.Color.White;
+=======
+>>>>>>> Stashed changes
             this.inicioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.carritoToolStripMenuItem,
             this.cerrarSesionToolStripMenuItem});

@@ -23,9 +23,16 @@ namespace practica_10
             form.Show();
             this.Hide();
         }
+<<<<<<< Updated upstream
         private void ordenesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Ordenes ordenes = new Ordenes();
+=======
+
+        private void ordenesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Ordenes ordenes = new Ordenes();  
+>>>>>>> Stashed changes
             ordenes.Show();
             this.Hide();
         }

@@ -16,7 +16,10 @@ namespace practica_10
         {
             InitializeComponent();
         }
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
         private void agregarOrdenesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Ordenar ordenar = new Ordenar();
