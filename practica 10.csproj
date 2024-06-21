@@ -69,6 +69,7 @@
       <DependentUpon>Ordenes.cs</DependentUpon>
     </Compile>
     <Compile Include="Pagos.cs" />
+    <Compile Include="Pedido.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Ordenar.cs">
@@ -116,6 +117,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\tialulasinfondo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picadas2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
